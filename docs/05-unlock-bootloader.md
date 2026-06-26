@@ -21,10 +21,10 @@ Bootloader unlock was done using Huawei Bootloader Tool v2 from XDA:
 
 https://xdaforums.com/t/bootloader-unlock-tool-permenant-bootloader-unlock-for-some-new-huawei-phones-tablets-with-snapdragon-socs-updated.4780724/
 
-Local project folder used during this workflow:
+Example local folder for the tool after extraction:
 
 ```text
-D:\HUAWEI MATEPAD 11 2021\01_FOLDERS\04_HUAWEI_BOOTLOADER_TOOL_V2
+<project-files>/Huawei_Bootloader_Tool_v2/
 ```
 
 Credit goes to the original XDA developer/thread author.
@@ -90,4 +90,3 @@ Other signs:
 Do not immediately OTA/HiSuite upgrade to HarmonyOS 4.2.
 
 Next step is to preserve EDL access by flashing the EDL-friendly ABL.
-

@@ -27,7 +27,7 @@ Do not flash a patched boot image from another build unless you are prepared to 
 ## Install APatch
 
 ```powershell
-.\adb.exe install "D:\HUAWEI MATEPAD 11 2021\01_FOLDERS\01_WORK_READY\05_ROOT_OPTIONAL\01_APatch_11142_166daa0_on_HEAD-release-signed.apk"
+.\adb.exe install "<project-files>\APatch.apk"
 ```
 
 Open APatch on the tablet and set/save the SuperKey.
@@ -44,7 +44,7 @@ Reboot to bootloader:
 Flash patched boot:
 
 ```powershell
-.\fastboot.exe flash boot "D:\HUAWEI MATEPAD 11 2021\01_FOLDERS\01_WORK_READY\05_ROOT_OPTIONAL\03_APatch_patched_boot\apatch_patched_11142_0.12.2_cvjb.img"
+.\fastboot.exe flash boot "<project-files>\apatch_patched_boot.img"
 .\fastboot.exe reboot
 ```
 
@@ -87,4 +87,3 @@ If the tablet bootloops after flashing patched boot:
 3. If fastboot is not enough, use EDL recovery path.
 
 This is why EDL access and full backup are mandatory.
-

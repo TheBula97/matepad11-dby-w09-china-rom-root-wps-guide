@@ -34,7 +34,7 @@ From the platform-tools folder:
 ```powershell
 .\adb.exe reboot bootloader
 .\fastboot.exe devices
-.\fastboot.exe flash abl "D:\HUAWEI MATEPAD 11 2021\01_FOLDERS\01_WORK_READY\02_REBRAND_TO_CHINA_EDL_DLOAD\04_abl_hw865870unlock.elf"
+.\fastboot.exe flash abl "<project-files>\abl_hw865870unlock.elf"
 .\fastboot.exe reboot
 ```
 
@@ -98,4 +98,3 @@ Unlocked bootloader
   -> ABL behavior may reset
   -> EDL access may be lost
 ```
-

@@ -6,6 +6,8 @@ This chapter lists the files used in this workflow and explains what each file i
 
 Do not blindly download random files. File/model mismatch is one of the easiest ways to break the tablet.
 
+Throughout this guide, paths such as `<project-files>` mean your own local folder where you keep the downloaded tools, firmware packages, backups, and module files. Replace the placeholder with your actual path.
+
 ## PC Tools
 
 | File/Tool | Purpose | Notes |
@@ -98,4 +100,3 @@ Avoid uploading:
 - files from sources that do not allow redistribution.
 
 It is safer to document filenames, checksums, and source references.
-
