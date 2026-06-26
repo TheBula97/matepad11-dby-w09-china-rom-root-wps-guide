@@ -75,7 +75,6 @@ HarmonyOS 4.2 is more restricted. If you update first, you may lose the easy pat
 11. [Arabic Font Support](docs/10-arabic-font-support.md)
 12. [Troubleshooting](docs/11-troubleshooting.md)
 13. [References and Credits](docs/12-references-and-credits.md)
-14. [Publishing to GitHub](docs/13-publishing-to-github.md)
 
 ## File Package
 
