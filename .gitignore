@@ -1,0 +1,27 @@
+# Large firmware packages
+*.zip
+*.7z
+*.rar
+*.app
+*.APP
+
+# Partition and backup images
+*.img
+*.bin
+*.elf
+
+# Windows executables and drivers
+*.exe
+*.sys
+*.cat
+
+# Keep authored release modules only when explicitly force-added
+!modules/*.zip
+!modules/README.md
+
+# Local scratch
+tmp/
+work/
+backup/
+*.log
+
