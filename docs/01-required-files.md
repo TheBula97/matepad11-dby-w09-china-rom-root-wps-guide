@@ -8,6 +8,21 @@ Do not blindly download random files. File/model mismatch is one of the easiest 
 
 Throughout this guide, paths such as `<project-files>` mean your own local folder where you keep the downloaded tools, firmware packages, backups, and module files. Replace the placeholder with your actual path.
 
+## Companion File Package
+
+A Google Drive package is available here:
+
+[DBY-W09 MatePad 11 2021 China ROM Root WPS Package](https://drive.google.com/drive/folders/1WjF99DV-UTEPkM3YRkm77TCNjAOZIpk9?usp=sharing)
+
+Recommended use:
+
+1. Download the full folder.
+2. Read `00_READ_FIRST/READ_FIRST.md`.
+3. Verify `00_READ_FIRST/CHECKSUMS_SHA256.txt`.
+4. Keep the folder layout unchanged.
+
+This package does not include personal device backups such as original OEMINFO, converted OEMINFO, GPT backup, NV/persist partitions, userdata, or full EDL backup.
+
 ## PC Tools
 
 | File/Tool | Purpose | Notes |
@@ -24,7 +39,7 @@ Throughout this guide, paths such as `<project-files>` mean your own local folde
 | File | Purpose |
 |---|---|
 | Firehose/programmer file | EDL communication/programming |
-| `converted_oeminfo.img` | OEMINFO converted to DBY-W09 ALL/CN |
+| `converted_oeminfo.img` | OEMINFO converted to DBY-W09 ALL/CN; generate this yourself from your own device backup |
 | `abl_hw865870unlock.elf` | EDL-friendly/unlocked ABL used to preserve fastboot-to-EDL path |
 | GPT backup/reference | Partition recovery/reference |
 | Full EDL backup | Safety net before modifying anything |
@@ -90,13 +105,15 @@ For GitHub, include hashes instead of uploading large firmware directly.
 | update_full_preload_DBY-W09_all_cn_R1.zip | ... | Huawei CDN / Firmware Finder | ALL/CN preload |
 ```
 
-## Files Not Recommended to Mirror
+## Files Not Recommended to Share Publicly
 
 Avoid uploading:
 
-- full Huawei firmware packages,
+- original or converted OEMINFO from your own device,
+- full EDL backup,
+- GPT/NV/persist/userdata/account-related partitions,
 - proprietary paid tools,
 - cracked tools,
 - files from sources that do not allow redistribution.
 
-It is safer to document filenames, checksums, and source references.
+It is safer to document filenames, checksums, and source references. If you provide a separate Drive package, include checksums and keep personal device dumps private.
