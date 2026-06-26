@@ -93,18 +93,6 @@ The APatch module handles:
 - Traditional Arabic font install,
 - Arabic Typesetting font install.
 
-## Suggested File Manifest Format
-
-For GitHub, include hashes instead of uploading large firmware directly.
-
-```md
-| File | SHA256 | Source | Purpose |
-|---|---|---|---|
-| update_full_base.zip | ... | Huawei CDN / Firmware Finder | HOS 4.2 base |
-| update_full_cust_DBY-W09_all_cn.zip | ... | Huawei CDN / Firmware Finder | ALL/CN custom |
-| update_full_preload_DBY-W09_all_cn_R1.zip | ... | Huawei CDN / Firmware Finder | ALL/CN preload |
-```
-
 ## Files Not Recommended to Share Publicly
 
 Avoid uploading:
