@@ -134,7 +134,7 @@ Try:
 
 ```powershell
 .\adb.exe shell su -c "am force-stop com.huawei.hsl"
-.\adb.exe shell su -c "for name in wpsoffice wpscloudsvr weston-rdprail-shell weston-keyboard weston HSLGd; do for pid in $(pidof \"$name\" 2>/dev/null); do kill -9 \"$pid\"; done; done"
+.\adb.exe shell su -c 'for name in wpsoffice wpscloudsvr weston-rdprail-shell weston-keyboard weston HSLGd; do for pid in $(pidof "$name" 2>/dev/null); do kill -9 "$pid"; done; done'
 ```
 
 Then open WPS again.
@@ -145,4 +145,3 @@ If it still returns to Chinese:
 2. Confirm module is enabled.
 3. Reinstall module v1.4.
 4. Reboot.
-

@@ -105,22 +105,16 @@ Confirm model DBY-W09
   -> Install APatch module for English UI + Arabic fonts
 ```
 
-## What This Guide Does Not Provide
+## What This Guide Keeps Private
 
 This GitHub repository does not store large firmware packages directly. Large files, where shared, are kept in the separate file package above.
 
-Recommended to include in your own repo:
+This guide does not provide personal device dumps such as:
 
-- scripts,
-- notes,
-- screenshots,
-- hashes,
-- your APatch module,
-- local file manifest.
+- original OEMINFO from the author's device,
+- converted OEMINFO from the author's device,
+- GPT/NV/persist/userdata backups,
+- full EDL backup,
+- paid tools or cracked tools.
 
-Recommended not to include:
-
-- full Huawei firmware packages,
-- paid tools,
-- cracked tools,
-- files you are not allowed to redistribute.
+Generate your own device-specific files and keep your backups private.
