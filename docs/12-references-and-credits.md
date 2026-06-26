@@ -1,5 +1,11 @@
 # 12. References and Credits
 
+## Author Note
+
+This guide was created from hands-on testing on a Huawei MatePad 11 2021 DBY-W09, with the help of Codex using Thinking 5.5 and full workspace access to organize, verify, document, and clean up the project from A to Z.
+
+The author is not a professional firmware engineer, Android reverse engineer, or Huawei technician. This is an enthusiast community workflow shared to help other DBY-W09 users.
+
 ## XDA References
 
 ### Huawei Bootloader Tool v2

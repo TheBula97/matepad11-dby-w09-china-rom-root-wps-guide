@@ -12,6 +12,14 @@ This repository documents the full workflow used on a Huawei MatePad 11 2021 `DB
 
 This is not an official Huawei guide. It is a documented field workflow based on the files, tests, backups, and fixes used on one DBY-W09 device.
 
+## Author Note
+
+This guide was created from my own hands-on testing on a Huawei MatePad 11 2021 DBY-W09, with the help of Codex using Thinking 5.5 and full workspace access to organize, verify, document, and clean up the project from A to Z.
+
+I am not a professional firmware engineer, Android reverse engineer, or Huawei technician. I am an enthusiast user who went through this process myself and wanted to document it clearly to help other DBY-W09 users.
+
+Please treat this guide as a community-documented workflow, not an official Huawei procedure. Read everything carefully, make your own backups, and proceed at your own risk.
+
 ## Final Tested Result
 
 | Item | Result |
