@@ -1,0 +1,21 @@
+﻿APatch/root verification captured from connected DBY-W09 via ADB
+
+Command: adb shell su -c id
+uid=0(root) gid=0(root) groups=0(root) context=u:r:magisk:s0
+
+Command: adb shell su -c "/data/adb/ap/bin/apd module list"
+[
+  {
+    "action": "false",
+    "update": "false",
+    "author": "Codex",
+    "version": "1.4",
+    "enabled": "true",
+    "remove": "false",
+    "description": "Forces WPS PC HSL English and installs Arabic/Traditional Arabic fonts into Huawei PC Engine.",
+    "versionCode": "5",
+    "web": "false",
+    "name": "WPS PC HSL English",
+    "id": "wps_hsl_english"
+  }
+]

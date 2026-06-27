@@ -38,7 +38,9 @@ Please treat this guide as a community-documented workflow, not an official Huaw
 ## Visual Proof
 
 <p>
-  <img src="assets/screenshots/04-about-tablet-cn-c00-after-rebrand.jpg" alt="DBY-W09 China C00 firmware after rebrand" width="420">
+  <img src="assets/screenshots/06-live-about-tablet-build-hos42-cn.png" alt="DBY-W09 HarmonyOS 4.2 CN device info" width="420">
+  <img src="assets/screenshots/07-live-apatch-status.png" alt="APatch working root status" width="420">
+  <img src="assets/screenshots/09-live-wps-office-pc-opened.png" alt="WPS Office PC English UI" width="420">
   <img src="assets/screenshots/05-wps-pc-english-arabic-proof.jpg" alt="WPS Office PC English and Arabic proof" width="420">
 </p>
 
