@@ -19,7 +19,7 @@ Do not continue flashing randomly.
 | Device unauthorized in ADB | USB debugging prompt not approved | Approve prompt on tablet |
 | Qualcomm driver cannot load | Windows Memory Integrity blocks old driver | Disable Memory Integrity, reboot, reinstall driver |
 | Device appears as `QUSB_BULK` | Driver not bound correctly | Use correct Qualcomm driver or Zadig WinUSB carefully |
-| DLOAD says package check failed | Wrong file/folder/package | Recheck `dload` folder and package names |
+| DLOAD says package check failed | Wrong file/folder/package or OTG storage issue | Recheck `dload` folder, package names, OTG adapter, and USB drive |
 | Android Utility `Command not allowed` | Bootloader locked or flashing blocked | Unlock bootloader first |
 | HOS 4.2 lost EDL command | OTA/HiSuite may have reset ABL behavior | Restore/flash EDL-friendly ABL if possible |
 | APatch says not installed | Patched boot not flashed or wrong boot image | Flash matching patched boot |
@@ -81,7 +81,26 @@ renamed ZIP files
 missing cust/preload
 wrong model package
 corrupted copy
+USB drive not detected by recovery
+non-working OTG adapter
 ```
+
+For DLOAD, the tablet must read the update package directly from USB-C OTG storage:
+
+```text
+Tablet USB-C port
+  -> OTG flash drive
+```
+
+or:
+
+```text
+Tablet USB-C port
+  -> USB-C OTG adapter/dongle
+  -> USB flash drive
+```
+
+A normal USB cable connected to the PC is not the same thing.
 
 ## EDL Access Lost
 
@@ -129,4 +148,3 @@ If not:
 .\adb.exe shell su -c "/data/adb/ap/bin/apd module install /sdcard/Download/wps_hsl_english_arabic_fonts_apatch_module_v1.4.zip"
 .\adb.exe reboot
 ```
-

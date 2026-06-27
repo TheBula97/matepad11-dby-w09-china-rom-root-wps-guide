@@ -14,6 +14,7 @@ You must already have:
 - a full EDL backup,
 - original OEMINFO backup,
 - GPT backup,
+- a USB OTG flash drive, or USB-C OTG adapter with a USB flash drive,
 - the converted DBY-W09 ALL/CN OEMINFO file.
 
 Do not continue without the original OEMINFO backup.
@@ -88,7 +89,22 @@ C00
 
 ## Step 3: DLOAD China Package
 
-Prepare a USB flash drive or OTG storage.
+Prepare a USB flash drive that the tablet can read directly through USB-C OTG.
+
+Supported setup:
+
+```text
+USB-C OTG flash drive
+```
+
+or:
+
+```text
+USB-C OTG adapter/dongle
+  -> USB flash drive
+```
+
+This step is done from Huawei recovery. The tablet reads the update package from the attached OTG storage. Connecting the tablet to the PC with a normal USB cable does not replace the OTG flash drive for this step.
 
 Folder name must be:
 
@@ -126,7 +142,9 @@ Check:
 - all required ZIP files are inside `dload`,
 - file names are not changed,
 - package is for DBY-W09 ALL/CN,
-- USB drive is readable by the tablet,
+- USB drive is connected through OTG and readable by the tablet,
+- the OTG adapter/dongle is working,
+- the USB drive filesystem is readable by Huawei recovery,
 - package was fully copied and safely ejected,
 - files are not corrupted.
 
@@ -153,4 +171,3 @@ C00 / China build information
 This step prepares the tablet for the China ROM path. It does not replace the need for bootloader unlock or EDL preservation.
 
 Keep the original OEMINFO backup forever.
-

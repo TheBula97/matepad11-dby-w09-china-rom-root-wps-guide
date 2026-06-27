@@ -34,6 +34,16 @@ This package does not include personal device backups such as original OEMINFO, 
 | Android Utility Pro | Manual PC flashing of Huawei update packages | Used for HOS 4.2 package loading/flashing |
 | Huawei Bootloader Tool v2 | Bootloader unlock workflow | From XDA |
 
+## Physical Hardware
+
+| Item | Purpose | Notes |
+|---|---|---|
+| USB-C data cable | ADB, Fastboot, and EDL work from PC | Use a reliable cable, not charge-only |
+| USB OTG flash drive, or USB-C OTG adapter + USB flash drive | Required for Huawei recovery `Memory card/OTG update mode` / DLOAD update | The tablet must be able to read the drive directly |
+| Windows PC/laptop | Drivers, EDL backup, bootloader unlock, and manual firmware flashing | This guide was performed from Windows |
+
+For the DLOAD/rebrand recovery update, the update files must be on storage connected directly to the tablet through USB-C OTG. A normal PC-to-tablet USB cable is not enough for this step.
+
 ## Rebrand and EDL Files
 
 | File | Purpose |
