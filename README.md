@@ -35,6 +35,15 @@ Please treat this guide as a community-documented workflow, not an official Huaw
 | WPS Office PC | English UI |
 | Arabic support | Traditional Arabic + Arabic Typesetting fonts |
 
+## Visual Proof
+
+<p>
+  <img src="assets/screenshots/04-about-tablet-cn-c00-after-rebrand.jpg" alt="DBY-W09 China C00 firmware after rebrand" width="420">
+  <img src="assets/screenshots/05-wps-pc-english-arabic-proof.jpg" alt="WPS Office PC English and Arabic proof" width="420">
+</p>
+
+More screenshots are available in [`assets/screenshots`](assets/screenshots).
+
 ## The Golden Rule
 
 EDL is the main road in this guide.

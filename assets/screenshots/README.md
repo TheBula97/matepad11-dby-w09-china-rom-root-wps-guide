@@ -1,24 +1,39 @@
 # Screenshots
 
-Recommended screenshots to add:
+This folder contains visual proof and reference screenshots from the tested DBY-W09 workflow.
 
-1. About tablet before conversion.
-2. EDL/9008 detected in Windows Device Manager.
-3. DLOAD folder structure.
-4. Android Utility with base/cust/preload loaded.
-5. Bootloader unlocked verification.
-6. APatch root status.
-7. WPS Office PC English UI.
-8. Traditional Arabic font proof in WPS Office PC.
+## Included
 
-Use descriptive file names:
+| File | Shows |
+|---|---|
+| `01-recovery-update-menu-otg-mode.jpg` | Huawei recovery update menu with Memory card/OTG update mode |
+| `02-dload-installing-update.jpg` | DLOAD package installing through recovery |
+| `03-dload-package-check-failed-example.jpg` | Example of DLOAD package check failure |
+| `04-about-tablet-cn-c00-after-rebrand.jpg` | DBY-W09 on China/C00 firmware after rebrand stage |
+| `05-wps-pc-english-arabic-proof.jpg` | WPS Office PC in English with Traditional Arabic font and Arabic text rendering |
 
-```text
-01-about-tablet-global.jpg
-02-edl-9008-device-manager.png
-03-dload-folder-structure.png
-04-android-utility-loaded.png
-05-apatch-root-status.jpg
-06-wps-pc-english-traditional-arabic.jpg
-```
+## Gallery
 
+### Recovery OTG Update Mode
+
+![Recovery OTG update mode](01-recovery-update-menu-otg-mode.jpg)
+
+### DLOAD Installing Update
+
+![DLOAD installing update](02-dload-installing-update.jpg)
+
+### DLOAD Error Example
+
+![DLOAD package check failed example](03-dload-package-check-failed-example.jpg)
+
+### China/C00 Firmware After Rebrand
+
+![About tablet after China rebrand](04-about-tablet-cn-c00-after-rebrand.jpg)
+
+### WPS Office PC English + Arabic
+
+![WPS Office PC English and Arabic proof](05-wps-pc-english-arabic-proof.jpg)
+
+## Notes
+
+APatch/root screenshots are not included here unless they clearly show an installed/authenticated root state. Avoid adding screenshots that may confuse users or expose private device/account information.
